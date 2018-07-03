@@ -4,6 +4,8 @@
 <div local-class="c-notification__content">
   {{#if notification.htmlContent}}
     {{{notification.message}}}
+  {{else if notification.componentName}}
+    {{component notification.componentName}}  
   {{else}}
     {{notification.message}}
   {{/if}}
