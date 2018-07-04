@@ -1,7 +1,7 @@
 /* Values */
 @value --container-position: 10px;
 @value --container-position: 10px;
-@value --container-width: 80%;
+@value --container-width: auto;
 @value --container-max-with: 400px;
 
 /* Base */
